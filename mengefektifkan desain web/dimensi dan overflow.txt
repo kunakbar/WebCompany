@@ -1,0 +1,41 @@
+	<h1>Dimensi dan Overflow pada CSS</h1>
+	<p>
+	Pengertian
+	Dimensi yaitu satuan yang dipake dalam mendesain CSS. Satuan css: px, cm, %.
+	Overflow yaitu bagaimana perilaku sistem menangani sebuah tampilan box dengan panjang dan lebar tertentu, namun isinya melebihi box.
+
+	Jenis Perilaku Sistem Untuk Menangani Kelebihan Isi dengan Overflow:
+	1. 
+
+	<h2>Tag yang memiliki default yaitu:</h2>
+	<ol type="a">
+		<li>inline: a button i em strong b span sub input label select textarea</li>
+		<li>block: h p ol ul li form hr div</li>
+	</ol>
+
+	<h2>Tampilan Pada Tag HTML:</h2>
+	<ol>
+		<li>Inline atau di baris(ind) memiliki ciri-ciri: elemen akan tampil dalam sebaris, tidak bisa mengatur panjang dan lebar.</li>
+		<li>Block atau blok(ind): tampil di baris bawahnya, panjang dan lebar konten bisa diatur.</li>
+		<li>Inline-block atau blok-dalam baris: tampil dalam sebaris, TAPI bisa mengatur panjang dan lebar.</li>
+	</ol>
+	
+	<h2>Contoh:</h2>
+	Berikut display inline pada LINK.
+	</p>
+	<a href="#">ke halaman 1</a>
+	<a href="#">ke halaman 2</a>
+	<a href="#">ke halaman 3</a>
+	<p>Berikut display inline pada BUTTON.</p>
+	<button>enter</button>
+	<button>delete</button>
+	<button>send</button>
+	<p>Berikut display block pada H4.</p>
+	<h4 style="background-color: darkgrey; width: 70vw; height: 600px">Ini adalah sebuah Header... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+	<h4>Header</h4>
+	<h4>Header</h4>

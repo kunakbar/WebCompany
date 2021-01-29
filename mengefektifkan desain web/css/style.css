@@ -1,0 +1,246 @@
+@font-face {
+	font-family: "akira";
+	src: url("akira_expanded/Akira Expanded Demo.otf");}
+@font-face{
+    font-family: "Monumentfont";
+    src: url("monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");}  
+@font-face{
+    font-family: "fontdeskripsi";
+    src: url('Metropolis Font family/Metropolis-Medium.otf');} 
+* {
+	padding: 0;
+	margin: 0;}
+a {
+	text-decoration: none;
+	color: inherit;}
+h3{
+    text-align: center;
+    color: #825832;
+	margin-bottom: 20px;
+	font-family: akira;
+	letter-spacing: 1px;}
+h5{
+	font-family: Monumentfont;
+	letter-spacing: 1px;
+}
+/*.container {width: 100%;}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;}*/
+header{
+	padding: 0 5vw;
+	height: 100px;
+	background-color: black;}
+header img {
+	height: 65px;
+	float: left;
+	padding-top: 15px;}
+header ul {
+    list-style: none;
+    float: right;}
+header ul li {
+	display: inline-block;
+	margin: 30px 10px;
+	padding: 0 6px;}
+header ul li a {
+	display: inline-block;
+	font-size: 19px;
+	color: white;
+	font-family: Monumentfont;}
+header ul li  a:hover {text-decoration: underline;}
+.banner{
+	height: 90vh;
+    background-image: url(../img/coffeeShop.jpeg);
+    background-size: cover;}
+.banner p{
+	letter-spacing: 1px;}
+.mabar {
+    color: #fff;
+    font-size: 90px;
+    margin-left: 50px;
+    padding-top: 190px;
+    font-family: "akira"
+	/*text-shadow: 2px 2px 3px black;*/}	
+.iniIshpot {
+    margin-left: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 48px;
+    color: white;
+    font-family: "Monumentfont"
+	/*text-shadow: 2px 2px 3px black;*/}
+.about .container {margin: 150px 70px;}
+.about img {width: 500px; height: 500px;}
+.paragraf{
+	width: 430px;
+	text-align: center;
+	float: right;
+	font-family: fontdeskripsi;
+	font-size: 18px;}
+.product{
+	padding: 0 3.5vw;
+    background-color: darkgrey;
+    text-align: center;
+	/*padding-top: 20px;
+	margin-bottom: 150px;*/}
+.product:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.item{
+	padding: 20px 0;
+	width: 23vw;
+	float: left;
+}
+.item img {
+	width: 250px;}
+
+.event, .menu {padding:50px 0;}
+.menu{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 150px;}
+.gambarMenu {
+	display: grid;
+    grid-template-columns: repeat(3, auto);}
+.gambarMenu .fotoMenu img {
+	width: 300px;
+	display: block;
+	margin: auto;}
+.fotoMenu {
+	border: 3px solid;
+	width: 300px;
+	display: block;
+	margin: auto;}
+.fotoMenu h1 {
+	text-align: center;
+	margin-top: 20px;}
+.fotoMenu h4 {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;}
+.fotoMenu p {
+    padding: 10px;
+    margin-left: 1px;
+    margin-top: 1px;
+    text-align: justify;
+    position: center;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;}
+.event {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 150px;}
+.event h1 {margin-bottom: 10px;}
+.gambarEvent {
+	display: grid;	
+    grid-template-columns: repeat(3, auto);}
+.fotoEvent{
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;}
+.event img{
+	display: block;
+	margin: auto;
+	width: 300px;}
+.fotoEvent h1 {
+	font-size: 20px;
+	width: 300px;}
+.fotoEvent p {
+	margin-bottom: 10px;
+	width: 300px;}
+.fotoEvent a {
+    padding: 5px;
+	position: center;
+    color: white;
+    background: #dfccab;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;}
+.information ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid; 
+    background-color: black;
+    color: white;
+    padding-left: 130px;
+    padding-right: 130px;
+    grid-template-columns: repeat(3, auto);   }
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: PlayfairDisplay;
+    font-size: 17px;}
+.information ul li{
+    font-size: 15px;
+    padding-left: 40px;}
+.medsos ul li a{color: white;}
+.medsos {
+	padding: 3px 0;
+	background: black;
+	background: linear-gradient(to bottom, black 0%, black 100%);
+	background: -webkit-linear-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, black));
+	background: -webkit-linear-gradient(top, black 0%, black 100%);
+	background: -moz-linear-gradient(top, black 0%, black 100%);
+	background: -o-linear-gradient(top, black 0%, black 100%);
+	background: -ms-linear-gradient(top, black 0%, black 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D4AF37', endColorstr='#C5A028', GradientType=0);
+	border: 1px solid black;
+	box-shadow: inset 0 1px 0 black;
+	-webkit-box-shadow: inset 0 1px 0 black;
+	-moz-box-shadow: inset 0 1px 0 black;}
+.medsos ul li {
+    display: inline-block;
+	float: right;
+	margin-right: 275px;}
+@media screen and (max-width:417px) { 
+	header{height: 50px;
+		padding: 0;}
+	header img{
+		height: 40px;
+		padding: 0;
+		margin: 5px;}
+	header ul li{margin: 18px 0;}
+	header ul li a{font-size: 9px;
+		float: right;}
+	.banner{
+		height: 70vh;
+	}
+	.mabar{
+		font-size: 50px;
+		float: none;
+		text-align: center;
+		margin: auto 0;}
+	.iniIshpot{
+		display: block;
+		margin: auto;
+		width: 255px;
+		font-size: 12px;
+		text-align: justify;
+}
+	.about .container{
+		margin: 0;
+		margin-top: 100px;}
+	.about .container img{
+		margin: 0;
+		padding: 0;
+		width: 100vw;}
+	.paragraf{float: left;
+		width: 80vw;
+		padding: 0 10vw;
+		font-size: 12px;
+	}
+	.product{
+		padding: 0 12vw;
+	}
+	.product .item{	
+	float: none;
+	width: 300px;
+}
+}

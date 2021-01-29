@@ -1,0 +1,45 @@
+.tempat{
+	width: 90%;
+	border: 1px solid;
+	content: "";
+	display: flex;
+	clear: both;
+	margin: auto;
+
+}
+.bundle{
+	border: 1px solid;
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+	font-size: 15px;
+	float: left;
+}
+img{
+	width: 100%;
+}
+h4{
+	width: 95%;}*/
+@media screen and (max-width:417px) {
+	.bundle{
+		border: 1px solid;
+		width: 30%;
+		text-align: center;
+		padding: 1%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
